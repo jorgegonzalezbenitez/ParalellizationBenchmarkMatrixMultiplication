@@ -5,6 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4c821f-981e-43c7-8c7b-38408b9c20a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicMatrixMultiplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicMatrixMultiplication/src/test/java/testBenchmark/BasicMatrixMultTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParallelMatrixMultiplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParallelMatrixMultiplication/src/test/java/testBenchmark/ParallelMatrixMultTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VectorSIMDMatrixMultiplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VectorSIMDMatrixMultiplication/src/test/java/testBenchmark/VectorSIMDMatrixMultTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,28 +23,73 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2pUICy9ExvdEYCmTTKzYVPRMTlQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Jmh.BasicMatrixMultTest.*.executor": "Run",
+    "Jmh.ParallelMatrixMultTest.*.executor": "Run",
+    "Jmh.VectorSIMDMatrixMultTest.*.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jorge gonzalez/Documents/Tercero 2024-2025/1er Cuatri/Big Data/JavaSearchEngine",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/jorge gonzalez/Documents/java/ParalellizationBenchmarkMatrixMultiplication/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/jorge gonzalez/Documents/java/ParalellizationBenchmarkMatrixMultiplication/VectorSimdMatrixMultiplication/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Jmh.VectorSIMDMatrixMultTest.*">
+    <configuration name="BasicMatrixMultTest.*" type="jmh-id" temporary="true" program-parameters="testBenchmark.BasicMatrixMultTest.*" working-dir="$MODULE_WORKING_DIR$" benchmark-type="CLASS" benchmark-class="testBenchmark.BasicMatrixMultTest" isAlternativeJrePathEnabled="false">
+      <module name="BasicMatrixMultiplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelMatrixMultTest.*" type="jmh-id" temporary="true" program-parameters="testBenchmark.ParallelMatrixMultTest.*" working-dir="$MODULE_WORKING_DIR$" benchmark-type="CLASS" benchmark-class="testBenchmark.ParallelMatrixMultTest" isAlternativeJrePathEnabled="false">
+      <module name="ParallelMatrixMultiplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VectorSIMDMatrixMultTest.*" type="jmh-id" temporary="true" program-parameters="testBenchmark.VectorSIMDMatrixMultTest.*" working-dir="$MODULE_WORKING_DIR$" benchmark-type="CLASS" benchmark-class="testBenchmark.VectorSIMDMatrixMultTest" isAlternativeJrePathEnabled="false">
+      <module name="VectorSIMDMatrixMultiplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jmh.VectorSIMDMatrixMultTest.*" />
+        <item itemvalue="Jmh.ParallelMatrixMultTest.*" />
+        <item itemvalue="Jmh.BasicMatrixMultTest.*" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -50,7 +106,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732814106534</updated>
-      <workItem from="1732814107559" duration="3000" />
+      <workItem from="1732814107559" duration="834000" />
+      <workItem from="1732878936497" duration="1742000" />
     </task>
     <servers />
   </component>
@@ -64,6 +121,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BasicMatrixMultiplication/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ParallelMatrixMultiplication/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/VectorSIMDMatrixMultiplication/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
